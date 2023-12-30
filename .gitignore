@@ -1,10 +1,17 @@
-# Large datasets stored locally
-*
-!*.py
-!*.ipynb
-!*.md
+# Ignore large datasets and data stored locally
 datasets/
+data/
+
+# Ignore temporary files
+*
 *.gz
 *.
 .vscode
-/data
+
+# Ignore archived files
+archived/
+
+# Keep all code
+!*.py
+!*.ipynb
+!*.md
